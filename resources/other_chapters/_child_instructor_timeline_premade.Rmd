@@ -1,0 +1,23 @@
+**1+ month before:**
+
+- Figure out how you will fund the class/workshop.
+- Start working through INSTRUCTOR SETUP.
+    - It's a good idea to get billing figured out with plenty of time to spare.
+    - Take some time to familiarize yourself with the content and make any desired updates or customizations.
+- Do any necessary EVENT SETUP steps.
+
+**~1 week before:**
+
+- Start working through RUNNING THE CLASS.
+- If possible, have students log in to AnVIL and send you their usernames, so you can add them to the Student Group ahead of time.  This saves time on the day of the class.
+- **Do not add students to your Billing Project** ahead of time.  This prevents them from accruing costs.
+
+**Day of (or shortly before):** 
+
+- Add students to Billing Project.
+- Have students clone the Workspace (They cannot do this until you have added them to the Billing Project.  As soon as they do this, they can start computing.).
+
+**After:**
+
+- Collect feedback, if you didn't do it during the class/workshop.
+- Work though EVENT WRAP-UP - **until you shut things down, you will continue to accrue costs**.

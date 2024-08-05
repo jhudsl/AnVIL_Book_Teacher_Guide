@@ -1,0 +1,51 @@
+1. [Launch Terra](https://anvil.terra.bio/#workspaces) and sign in with your Google account.
+
+1. In the drop-down menu on the left, navigate to "Groups". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Groups".  You can also navigate there directly with this link: https://anvil.terra.bio/#groups
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the "hamburger" button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item "Groups".'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g116f8d759be_0_2")
+    ```
+
+1. Find the name of the Group you want to add someone to, and confirm that you have Admin privileges for the Group (you can only add and remove members to a Group if you are an Admin).  Click on the name of the Group to view and manage members.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra Groups page.  The Group Name and Role are highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1bbb904ed85_0_0")
+    ```
+
+1. Click on "+ Add User". You will be prompted to enter the user’s AnVIL ID.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of a Terra Group management page. The "+ Add User" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1d86dfc306c_0_0")
+    ```
+
+1. Type in the user’s email address.  Make sure this is the account that they will be using to access AnVIL.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the dialog box for adding Terra Group members. The textbox labeled "User email" is highlighted and an email address has been entered.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1d86dfc306c_0_12")
+    ```
+
+1. If this member will need to add and remove other members of the Group, check the box for "Can manage members (admin)".  This will add them as an "Admin" for the Group.  Otherwise leave it unchecked, and they will be added as a "Member".
+     - Admins and Members have equal access to any resources shared with the Group.
+     - Admins can manage Group membership - they can add, remove, or change the role of other Group members.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the dialog box for adding Terra Group members. The checkbox labeled "Can manage members (admin)" is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1d86dfc306c_0_19")
+    ```
+
+1. Click ADD USER. This will take you back to the Group administration page.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the dialog box for adding Terra Group members. The button labeled "ADD USER" is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1d86dfc306c_0_25")
+    ```
+    
+1. The new Group member will now be shown in the list of group members, along with their role.  They should now have access to anything that the Group has been given access to.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of a Terra Group management page. The name and role of the new member is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1d86dfc306c_0_38")
+    ```
+
+If you need to remove members or modify their roles, you can do so at any time by clicking the teardrop button next to their name.
+
+```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of a Terra Group management page. The teardrop button next to one of the members is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1Odb2ZZrdxyzFtw-9kBck7j8XbNVriI84xm-fPN1fpIM/edit#slide=id.g1d86dfc306c_0_32")
+```

@@ -1,0 +1,13 @@
+1. [Launch Terra](https://anvil.terra.bio/#workspaces) and sign in with your Google account.
+
+1. In the drop-down menu on the left, navigate to "Groups". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Groups".  You can also navigate there directly with this link: https://anvil.terra.bio/#groups
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the "hamburger" button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item "Groups".'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1NvMcwnnmXVHxrnaxRaZqmUmAdy4Suzc4CyDuMvmD2wo/edit#slide=id.g116f8d759be_0_2")
+    ```
+
+1. Find the name of the Group, then look in the "Group Email" column to find the email address associated with the Group.  Copy this email address and paste it in as the username when adding people to Billing Projects and Workspaces.  This will grant everyone in the Group access to the Billing Project or Workspace.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra Groups page.  A Group email address is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1NvMcwnnmXVHxrnaxRaZqmUmAdy4Suzc4CyDuMvmD2wo/edit#slide=id.g1baba6c5e0d_1_737")
+    ```

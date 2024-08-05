@@ -1,0 +1,31 @@
+1. [Launch Terra](https://anvil.terra.bio/#workspaces) and sign in with your Google account.
+
+1. In the drop-down menu on the left, navigate to "Groups". Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click "Groups".  You can also navigate there directly with this link: https://anvil.terra.bio/#groups
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the "hamburger" button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item "Groups".'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0/edit#slide=id.g116f8d759be_0_2")
+    ```
+
+1. Click "+ Create a New Group"
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra Group page. The "Create a New Group" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0/edit#slide=id.g1baba6c5e0d_1_287")
+    ```
+
+1. Enter a name for your group.  Names must be unique, so it’s often helpful to include your team’s name, the purpose of the group, and optionally the timeframe, if you will have similar groups in the future.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The textbox is highlighted and has been filled in with the Group name.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0/edit#slide=id.g1baba6c5e0d_1_431")
+    ```
+
+1. Click "CREATE GROUP"
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra Group page with Create New Group pop out box. The "CREATE GROUP" button is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0/edit#slide=id.g1baba6c5e0d_1_728")
+    ```
+
+1. Your new Group should now show up on the Group Management screen.  Take note of the email address associated with your group.  You will use this email to grant the group access to Billing Projects and Workspaces.
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot of the Terra Groups page.  The Group email address is highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SnRZYoHXTLZjiR2jqvmsU2VEIRG5qA23UZWIztNMXH0/edit#slide=id.g1baba6c5e0d_1_737")
+    ```

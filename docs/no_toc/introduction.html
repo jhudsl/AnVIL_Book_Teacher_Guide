@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 1 Introduction | AnVIL Instructor Guide</title>
   <meta name="description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 1 Introduction | AnVIL Instructor Guide" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Guide to help teachers and instructors set up accounts and use the AnVIL platform for instruction" />
   
@@ -23,16 +22,15 @@
 
 
 
-<meta name="date" content="2022-02-14" />
+<meta name="date" content="2024-08-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
-  <link rel="shortcut icon" href="assets/anvil_favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/AnVIL_style/anvil_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="index.html"/>
-<link rel="next" href="overview.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<link rel="next" href="overview-1.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,8 +48,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -90,11 +89,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
+code span.at { color: #204a87; } /* Attribute */
 code span.bn { color: #0000cf; } /* BaseN */
 code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
+code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #8f5902; font-style: italic; } /* Comment */
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
@@ -103,14 +102,14 @@ code span.dv { color: #0000cf; } /* DecVal */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
 code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
 code span.ot { color: #8f5902; } /* Other */
 code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
 code span.ss { color: #4e9a06; } /* SpecialString */
 code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
@@ -118,8 +117,13 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
-<link rel="stylesheet" href="assets/style_anvil.css" type="text/css" />
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
+<link rel="stylesheet" href="assets/AnVIL_style/anvil.css" type="text/css" />
 </head>
 
 <body>
@@ -132,100 +136,145 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<a href="https://anvilproject.org/" target="_blank"><img src="assets/logo-anvil.png" style="width: 80%; padding-left: 15px; padding-top: 8px;"</a>
+<a href="https://anvilproject.org/" target="_blank"><img src="assets/AnVIL_style/logo-anvil.png" style="width: 80%; padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Book</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Book</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#anvil-collection"><i class="fa fa-check"></i>AnVIL Collection</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#what-is-anvil"><i class="fa fa-check"></i><b>1.1</b> What Is AnVIL?</a></li>
 <li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#does-anvil-cost-money"><i class="fa fa-check"></i><b>1.2</b> Does AnVIL Cost Money?</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#where-can-i-get-help"><i class="fa fa-check"></i><b>1.3</b> Where Can I Get Help?</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#scroll-highlight"><i class="fa fa-check"></i><b>1.4</b> Activate <code>scroll_highlight</code> Feature</a></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>2</b> Overview</a>
-<ul>
-<li class="chapter" data-level="2.0.1" data-path="overview.html"><a href="overview.html#goals-for-this-guide"><i class="fa fa-check"></i><b>2.0.1</b> Goals for This Guide</a></li>
-<li class="chapter" data-level="2.0.2" data-path="overview.html"><a href="overview.html#design-philosophy"><i class="fa fa-check"></i><b>2.0.2</b> Design Philosophy</a></li>
-<li class="chapter" data-level="2.0.3" data-path="overview.html"><a href="overview.html#before-you-start"><i class="fa fa-check"></i><b>2.0.3</b> Before You Start</a></li>
+<li class="chapter" data-level="1.5" data-path="introduction.html"><a href="introduction.html#why-should-i-use-anvil"><i class="fa fa-check"></i><b>1.5</b> Why should I use AnVIL?</a></li>
+<li class="chapter" data-level="1.6" data-path="introduction.html"><a href="introduction.html#overview"><i class="fa fa-check"></i><b>1.6</b> Overview</a></li>
+<li class="chapter" data-level="1.7" data-path="introduction.html"><a href="introduction.html#goals-for-this-guide"><i class="fa fa-check"></i><b>1.7</b> Goals for This Guide</a></li>
+<li class="chapter" data-level="1.8" data-path="introduction.html"><a href="introduction.html#design-philosophy"><i class="fa fa-check"></i><b>1.8</b> Design Philosophy</a></li>
 </ul></li>
 <li class="part"><span><b>Instructor Setup</b></span></li>
-<li class="chapter" data-level="3" data-path="account-setup.html"><a href="account-setup.html"><i class="fa fa-check"></i><b>3</b> Account Setup</a>
+<li class="chapter" data-level="2" data-path="overview-1.html"><a href="overview-1.html"><i class="fa fa-check"></i><b>2</b> Overview</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="account-setup.html"><a href="account-setup.html#overview-of-account-setup"><i class="fa fa-check"></i><b>3.1</b> Overview of Account Setup</a></li>
-<li class="chapter" data-level="3.2" data-path="account-setup.html"><a href="account-setup.html#google-account"><i class="fa fa-check"></i><b>3.2</b> Step 1: Create a Google Account</a></li>
-<li class="chapter" data-level="3.3" data-path="account-setup.html"><a href="account-setup.html#step-2-sign-in-to-terra"><i class="fa fa-check"></i><b>3.3</b> Step 2: Sign in to Terra</a></li>
+<li class="chapter" data-level="2.1" data-path="overview-1.html"><a href="overview-1.html#what-do-i-need-to-do"><i class="fa fa-check"></i><b>2.1</b> What do I need to do?</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="developing-content.html"><a href="developing-content.html"><i class="fa fa-check"></i><b>4</b> Developing Content</a>
+<li class="chapter" data-level="3" data-path="instructor-google-account.html"><a href="instructor-google-account.html"><i class="fa fa-check"></i><b>3</b> Create Google account</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="developing-content.html"><a href="developing-content.html#overview-of-developing-content"><i class="fa fa-check"></i><b>4.1</b> Overview of Developing Content</a>
+<li class="chapter" data-level="3.1" data-path="instructor-google-account.html"><a href="instructor-google-account.html#google-account"><i class="fa fa-check"></i><b>3.1</b> Create a Google Account</a></li>
+<li class="chapter" data-level="3.2" data-path="instructor-google-account.html"><a href="instructor-google-account.html#sign-in-to-terra"><i class="fa fa-check"></i><b>3.2</b> Sign in to Terra</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="google-billing-account.html"><a href="google-billing-account.html"><i class="fa fa-check"></i><b>4</b> Set up Google Billing</a>
 <ul>
-<li class="chapter" data-level="4.1.1" data-path="developing-content.html"><a href="developing-content.html#before-you-start-1"><i class="fa fa-check"></i><b>4.1.1</b> Before You Start</a></li>
-</ul></li>
-<li class="chapter" data-level="4.2" data-path="developing-content.html"><a href="developing-content.html#set-up-anvilpublish-on-anvil"><i class="fa fa-check"></i><b>4.2</b> Set Up AnVILPublish on AnVIL</a>
+<li class="chapter" data-level="4.1" data-path="google-billing-account.html"><a href="google-billing-account.html#before-you-start"><i class="fa fa-check"></i><b>4.1</b> Before You Start</a></li>
+<li class="chapter" data-level="4.2" data-path="google-billing-account.html"><a href="google-billing-account.html#google-billing-account-1"><i class="fa fa-check"></i><b>4.2</b> Google Billing Account</a>
 <ul>
-<li class="chapter" data-level="4.2.1" data-path="developing-content.html"><a href="developing-content.html#install-anvilpublish"><i class="fa fa-check"></i><b>4.2.1</b> Install AnVILPublish</a></li>
-<li class="chapter" data-level="4.2.2" data-path="developing-content.html"><a href="developing-content.html#install-notedown"><i class="fa fa-check"></i><b>4.2.2</b> Install <code>notedown</code></a></li>
+<li class="chapter" data-level="4.2.1" data-path="google-billing-account.html"><a href="google-billing-account.html#create-a-google-billing-account"><i class="fa fa-check"></i><b>4.2.1</b> Create a Google Billing Account</a></li>
+<li class="chapter" data-level="4.2.2" data-path="google-billing-account.html"><a href="google-billing-account.html#add-users-or-viewers-optional"><i class="fa fa-check"></i><b>4.2.2</b> Add Users or Viewers (optional)</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="developing-content.html"><a href="developing-content.html#create-workspace-structure"><i class="fa fa-check"></i><b>4.3</b> Create Workspace Structure</a>
+<li class="chapter" data-level="4.3" data-path="google-billing-account.html"><a href="google-billing-account.html#add-terra-to-google-billing-account"><i class="fa fa-check"></i><b>4.3</b> Add Terra to Google Billing Account</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="instructor-group.html"><a href="instructor-group.html"><i class="fa fa-check"></i><b>5</b> Create Instructor Group</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="developing-content.html"><a href="developing-content.html#identify-your-repository"><i class="fa fa-check"></i><b>4.3.1</b> Identify Your Repository</a></li>
-<li class="chapter" data-level="4.3.2" data-path="developing-content.html"><a href="developing-content.html#changing-the-description-file"><i class="fa fa-check"></i><b>4.3.2</b> Changing the <code>DESCRIPTION</code> File</a></li>
-<li class="chapter" data-level="4.3.3" data-path="developing-content.html"><a href="developing-content.html#changing-other-files"><i class="fa fa-check"></i><b>4.3.3</b> Changing Other Files</a></li>
-<li class="chapter" data-level="4.3.4" data-path="developing-content.html"><a href="developing-content.html#create-the-workspace"><i class="fa fa-check"></i><b>4.3.4</b> Create the Workspace</a></li>
+<li class="chapter" data-level="5.1" data-path="instructor-group.html"><a href="instructor-group.html#create-terra-group"><i class="fa fa-check"></i><b>5.1</b> Create Terra Group</a></li>
+<li class="chapter" data-level="5.2" data-path="instructor-group.html"><a href="instructor-group.html#add-instructors-and-tas-to-group"><i class="fa fa-check"></i><b>5.2</b> Add Instructors and TAs to Group</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="developing-content.html"><a href="developing-content.html#update-dashboard"><i class="fa fa-check"></i><b>4.4</b> Update Dashboard</a></li>
-<li class="chapter" data-level="4.5" data-path="developing-content.html"><a href="developing-content.html#post-jupyter-notebook"><i class="fa fa-check"></i><b>4.5</b> Post Jupyter Notebook</a></li>
-<li class="chapter" data-level="4.6" data-path="developing-content.html"><a href="developing-content.html#push-changes-to-github"><i class="fa fa-check"></i><b>4.6</b> Push Changes to GitHub</a></li>
-</ul></li>
-<li class="part"><span><b>For Each Class</b></span></li>
-<li class="chapter" data-level="5" data-path="class-setup.html"><a href="class-setup.html"><i class="fa fa-check"></i><b>5</b> Class Setup</a>
+<li class="chapter" data-level="6" data-path="terra-billing-projects.html"><a href="terra-billing-projects.html"><i class="fa fa-check"></i><b>6</b> Set up Terra Billing Projects</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="class-setup.html"><a href="class-setup.html#overview-of-class-setup"><i class="fa fa-check"></i><b>5.1</b> Overview of Class Setup</a></li>
-<li class="chapter" data-level="5.2" data-path="class-setup.html"><a href="class-setup.html#identify-funding"><i class="fa fa-check"></i><b>5.2</b> Identify Funding</a>
+<li class="chapter" data-level="6.1" data-path="terra-billing-projects.html"><a href="terra-billing-projects.html#create-terra-billing-projects"><i class="fa fa-check"></i><b>6.1</b> Create Terra Billing Projects</a></li>
+<li class="chapter" data-level="6.2" data-path="terra-billing-projects.html"><a href="terra-billing-projects.html#add-instructors-billing-project"><i class="fa fa-check"></i><b>6.2</b> Add Instructors to Billing Project</a>
 <ul>
-<li class="chapter" data-level="5.2.1" data-path="class-setup.html"><a href="class-setup.html#strides-funding"><i class="fa fa-check"></i><b>5.2.1</b> NHGRI STRIDES</a></li>
+<li class="chapter" data-level="6.2.1" data-path="terra-billing-projects.html"><a href="terra-billing-projects.html#group-email"><i class="fa fa-check"></i><b>6.2.1</b> Find Group email</a></li>
+<li class="chapter" data-level="6.2.2" data-path="terra-billing-projects.html"><a href="terra-billing-projects.html#add-members-to-billing-project"><i class="fa fa-check"></i><b>6.2.2</b> Add members to Billing Project</a></li>
 </ul></li>
-<li class="chapter" data-level="5.3" data-path="class-setup.html"><a href="class-setup.html#collect-google-ids"><i class="fa fa-check"></i><b>5.3</b> Collect Google IDs</a></li>
-<li class="chapter" data-level="5.4" data-path="class-setup.html"><a href="class-setup.html#set-up-groups"><i class="fa fa-check"></i><b>5.4</b> Set Up Groups</a>
+</ul></li>
+<li class="chapter" data-level="7" data-path="wrap-up.html"><a href="wrap-up.html"><i class="fa fa-check"></i><b>7</b> Wrap-up</a></li>
+<li class="part"><span><b>Content Preparation</b></span></li>
+<li class="chapter" data-level="8" data-path="using-premade-content.html"><a href="using-premade-content.html"><i class="fa fa-check"></i><b>8</b> Using premade content</a>
 <ul>
-<li class="chapter" data-level="5.4.1" data-path="class-setup.html"><a href="class-setup.html#instructor-group"><i class="fa fa-check"></i><b>5.4.1</b> Instructor Group</a></li>
-<li class="chapter" data-level="5.4.2" data-path="class-setup.html"><a href="class-setup.html#add-instructors-as-admin-instructor-group"><i class="fa fa-check"></i><b>5.4.2</b> Add Instructors as “Admin” (Instructor Group)</a></li>
-<li class="chapter" data-level="5.4.3" data-path="class-setup.html"><a href="class-setup.html#student-group"><i class="fa fa-check"></i><b>5.4.3</b> Student Group</a></li>
-<li class="chapter" data-level="5.4.4" data-path="class-setup.html"><a href="class-setup.html#add-instructors-as-admin-student-group"><i class="fa fa-check"></i><b>5.4.4</b> Add Instructors as “Admin” (Student Group)</a></li>
-<li class="chapter" data-level="5.4.5" data-path="class-setup.html"><a href="class-setup.html#add-students-as-member"><i class="fa fa-check"></i><b>5.4.5</b> Add Students as “Member”</a></li>
-<li class="chapter" data-level="5.4.6" data-path="class-setup.html"><a href="class-setup.html#group-email-lists"><i class="fa fa-check"></i><b>5.4.6</b> Group Email Lists</a></li>
+<li class="chapter" data-level="8.1" data-path="using-premade-content.html"><a href="using-premade-content.html#before-you-start-1"><i class="fa fa-check"></i><b>8.1</b> Before You Start</a></li>
+<li class="chapter" data-level="8.2" data-path="using-premade-content.html"><a href="using-premade-content.html#cloning-the-workspace"><i class="fa fa-check"></i><b>8.2</b> Cloning the workspace</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="class-setup.html"><a href="class-setup.html#set-up-billing-projects"><i class="fa fa-check"></i><b>5.5</b> Set Up Billing Projects</a>
+<li class="chapter" data-level="9" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html"><i class="fa fa-check"></i><b>9</b> Developing your own content</a>
 <ul>
-<li class="chapter" data-level="5.5.1" data-path="class-setup.html"><a href="class-setup.html#instructor-billing-project"><i class="fa fa-check"></i><b>5.5.1</b> Instructor Billing Project</a></li>
-<li class="chapter" data-level="5.5.2" data-path="class-setup.html"><a href="class-setup.html#add-instructors-as-owner-instructor-project"><i class="fa fa-check"></i><b>5.5.2</b> Add Instructors as “Owner” (Instructor Project)</a></li>
-<li class="chapter" data-level="5.5.3" data-path="class-setup.html"><a href="class-setup.html#student-billing-project"><i class="fa fa-check"></i><b>5.5.3</b> Student Billing Project</a></li>
-<li class="chapter" data-level="5.5.4" data-path="class-setup.html"><a href="class-setup.html#add-instructors-as-owner-student-project"><i class="fa fa-check"></i><b>5.5.4</b> Add Instructors as “Owner” (Student Project)</a></li>
-<li class="chapter" data-level="5.5.5" data-path="class-setup.html"><a href="class-setup.html#add-students-as-user"><i class="fa fa-check"></i><b>5.5.5</b> Add Students as “User”</a></li>
-</ul></li>
-<li class="chapter" data-level="5.6" data-path="class-setup.html"><a href="class-setup.html#set-permissions---workspace"><i class="fa fa-check"></i><b>5.6</b> Set Permissions - Workspace</a>
+<li class="chapter" data-level="9.0.1" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#before-you-start-2"><i class="fa fa-check"></i><b>9.0.1</b> Before You Start</a></li>
+<li class="chapter" data-level="9.1" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#set-up-anvilpublish-on-anvil"><i class="fa fa-check"></i><b>9.1</b> Set Up AnVILPublish on AnVIL</a>
 <ul>
-<li class="chapter" data-level="5.6.1" data-path="class-setup.html"><a href="class-setup.html#add-instructors-as-owner"><i class="fa fa-check"></i><b>5.6.1</b> Add Instructors as “Owner”</a></li>
-<li class="chapter" data-level="5.6.2" data-path="class-setup.html"><a href="class-setup.html#add-students-as-reader"><i class="fa fa-check"></i><b>5.6.2</b> Add Students as “Reader”</a></li>
+<li class="chapter" data-level="9.1.1" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#install-anvilpublish"><i class="fa fa-check"></i><b>9.1.1</b> Install AnVILPublish</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#install-notedown"><i class="fa fa-check"></i><b>9.1.2</b> Install <code>notedown</code></a></li>
 </ul></li>
-<li class="chapter" data-level="5.7" data-path="class-setup.html"><a href="class-setup.html#notify-terra"><i class="fa fa-check"></i><b>5.7</b> Notify Terra</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="class-ending.html"><a href="class-ending.html"><i class="fa fa-check"></i><b>6</b> Class Ending</a>
+<li class="chapter" data-level="9.2" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#create-workspace-structure"><i class="fa fa-check"></i><b>9.2</b> Create Workspace Structure</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="class-ending.html"><a href="class-ending.html#notify-students"><i class="fa fa-check"></i><b>6.1</b> Notify Students</a></li>
-<li class="chapter" data-level="6.2" data-path="class-ending.html"><a href="class-ending.html#disable-billing"><i class="fa fa-check"></i><b>6.2</b> Disable Billing</a></li>
+<li class="chapter" data-level="9.2.1" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#identify-your-repository"><i class="fa fa-check"></i><b>9.2.1</b> Identify Your Repository</a></li>
+<li class="chapter" data-level="9.2.2" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#changing-the-description-file"><i class="fa fa-check"></i><b>9.2.2</b> Changing the <code>DESCRIPTION</code> File</a></li>
+<li class="chapter" data-level="9.2.3" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#changing-other-files"><i class="fa fa-check"></i><b>9.2.3</b> Changing Other Files</a></li>
+<li class="chapter" data-level="9.2.4" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#create-the-workspace"><i class="fa fa-check"></i><b>9.2.4</b> Create the Workspace</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="class-checklist.html"><a href="class-checklist.html"><i class="fa fa-check"></i><b>7</b> Class Checklist</a></li>
-<li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="student-account-setup.html"><a href="student-account-setup.html"><i class="fa fa-check"></i><b>A</b> Student Account Setup</a></li>
-<li class="chapter" data-level="B" data-path="give-us-feedback.html"><a href="give-us-feedback.html"><i class="fa fa-check"></i><b>B</b> Give us Feedback</a></li>
+<li class="chapter" data-level="9.3" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#set-workspace-permissions"><i class="fa fa-check"></i><b>9.3</b> Set Workspace permissions</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#add-instructors-as-owner"><i class="fa fa-check"></i><b>9.3.1</b> Add Instructors as “Owner”</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#add-students-as-reader"><i class="fa fa-check"></i><b>9.3.2</b> Add Students as “Reader”</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#update-dashboard"><i class="fa fa-check"></i><b>9.4</b> Update Dashboard</a></li>
+<li class="chapter" data-level="9.5" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#post-jupyter-notebook"><i class="fa fa-check"></i><b>9.5</b> Post Jupyter Notebook</a></li>
+<li class="chapter" data-level="9.6" data-path="developing-your-own-content.html"><a href="developing-your-own-content.html#push-changes-to-github"><i class="fa fa-check"></i><b>9.6</b> Push Changes to GitHub</a></li>
+</ul></li>
+<li class="part"><span><b>Running The Class</b></span></li>
+<li class="chapter" data-level="10" data-path="run-class.html"><a href="run-class.html"><i class="fa fa-check"></i><b>10</b> Overview</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="run-class.html"><a href="run-class.html#checklist-and-timeline"><i class="fa fa-check"></i><b>10.1</b> Checklist and Timeline</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="set-up-funding.html"><a href="set-up-funding.html"><i class="fa fa-check"></i><b>11</b> Set Up Funding</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="set-up-funding.html"><a href="set-up-funding.html#create-student-billing-project"><i class="fa fa-check"></i><b>11.1</b> Create Student Billing Project</a></li>
+<li class="chapter" data-level="11.2" data-path="set-up-funding.html"><a href="set-up-funding.html#quota-increase"><i class="fa fa-check"></i><b>11.2</b> Request Project Quota Increase</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="set-up-student-accounts.html"><a href="set-up-student-accounts.html"><i class="fa fa-check"></i><b>12</b> Set Up Student Accounts</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="set-up-student-accounts.html"><a href="set-up-student-accounts.html#student-group"><i class="fa fa-check"></i><b>12.1</b> Create Student Group</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="set-up-student-accounts.html"><a href="set-up-student-accounts.html#add-instructors-to-group"><i class="fa fa-check"></i><b>12.1.1</b> Add Instructors to Group</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="set-up-student-accounts.html"><a href="set-up-student-accounts.html#have-students-create-accounts"><i class="fa fa-check"></i><b>12.2</b> Have Students Create Accounts</a></li>
+<li class="chapter" data-level="12.3" data-path="set-up-student-accounts.html"><a href="set-up-student-accounts.html#add-students-to-group"><i class="fa fa-check"></i><b>12.3</b> Add Students to Group</a></li>
+<li class="chapter" data-level="12.4" data-path="set-up-student-accounts.html"><a href="set-up-student-accounts.html#add-student-group-to-workspace"><i class="fa fa-check"></i><b>12.4</b> Add Student Group to Workspace</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="teach-the-class.html"><a href="teach-the-class.html"><i class="fa fa-check"></i><b>13</b> Teach the Class</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="teach-the-class.html"><a href="teach-the-class.html#before-add-student-group-to-billing-project"><i class="fa fa-check"></i><b>13.1</b> Before: Add Student Group to Billing Project</a></li>
+<li class="chapter" data-level="13.2" data-path="teach-the-class.html"><a href="teach-the-class.html#before-direct-students-to-clone-workspace"><i class="fa fa-check"></i><b>13.2</b> Before: Direct Students to Clone Workspace</a></li>
+<li class="chapter" data-level="13.3" data-path="teach-the-class.html"><a href="teach-the-class.html#after-instruct-students-on-shutdown"><i class="fa fa-check"></i><b>13.3</b> After: Instruct Students on Shutdown</a></li>
+<li class="chapter" data-level="13.4" data-path="teach-the-class.html"><a href="teach-the-class.html#after-collect-feedback"><i class="fa fa-check"></i><b>13.4</b> After: Collect Feedback</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="shutting-down.html"><a href="shutting-down.html"><i class="fa fa-check"></i><b>14</b> Shutting Down</a></li>
+<li class="part"><span><b>Cost Management</b></span></li>
+<li class="chapter" data-level="15" data-path="understanding-anvil-billing.html"><a href="understanding-anvil-billing.html"><i class="fa fa-check"></i><b>15</b> Understanding AnVIL Billing</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="understanding-anvil-billing.html"><a href="understanding-anvil-billing.html#types-of-costs"><i class="fa fa-check"></i><b>15.1</b> Types of costs</a></li>
+<li class="chapter" data-level="15.2" data-path="understanding-anvil-billing.html"><a href="understanding-anvil-billing.html#estimating-costs-before-the-class-begins"><i class="fa fa-check"></i><b>15.2</b> Estimating costs before the class begins</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="how-much-does-a-class-cost.html"><a href="how-much-does-a-class-cost.html"><i class="fa fa-check"></i><b>16</b> How much does a class cost?</a>
+<ul>
+<li class="chapter" data-level="16.1" data-path="how-much-does-a-class-cost.html"><a href="how-much-does-a-class-cost.html#funding-sources"><i class="fa fa-check"></i><b>16.1</b> Funding sources</a></li>
+</ul></li>
+<li class="part"><span><b>Student Instructions</b></span></li>
+<li class="chapter" data-level="17" data-path="student-instructions.html"><a href="student-instructions.html"><i class="fa fa-check"></i><b>17</b> Overview</a></li>
+<li class="chapter" data-level="18" data-path="student-account-setup.html"><a href="student-account-setup.html"><i class="fa fa-check"></i><b>18</b> Setup AnVIL Account</a></li>
+<li class="chapter" data-level="19" data-path="student-clone-workspace.html"><a href="student-clone-workspace.html"><i class="fa fa-check"></i><b>19</b> Access Materials</a></li>
+<li class="chapter" data-level="20" data-path="start-galaxy.html"><a href="start-galaxy.html"><i class="fa fa-check"></i><b>20</b> Start Galaxy</a></li>
+<li class="chapter" data-level="21" data-path="student-start-RStudio.html"><a href="student-start-RStudio.html"><i class="fa fa-check"></i><b>21</b> Start RStudio</a>
+<ul>
+<li class="chapter" data-level="21.1" data-path="student-start-RStudio.html"><a href="student-start-RStudio.html#start-rstudio"><i class="fa fa-check"></i><b>21.1</b> Start RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="22" data-path="give-us-feedback.html"><a href="give-us-feedback.html"><i class="fa fa-check"></i><b>22</b> Give us Feedback</a></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="divider"></li>
 <p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
 <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
 <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span><a href="https://docs.google.com/forms/d/e/1FAIpQLScrDVb_utm55pmb_SHx-RgELTEbCCWdLea0T3IzS0Oj00GE4w/viewform?usp=pp_url&entry.1565230805=AnVIL+Instructor+Guide"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
 
 </ul>
 
@@ -248,39 +297,96 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
   <!--<script src="assets/hideOutput.js"></script>-->
-  <link href="assets/style_anvil.css" rel="stylesheet">
 </head>
         
 
 
 <div class="hero-image-container"> 
-  <img class= "hero-image" src="assets/dasl_thin_main_image.png">
+  <img class= "hero-image" src="assets/AnVIL_style/dasl_thin_main_image.png">
 </div>
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<div id="what-is-anvil" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> What Is AnVIL?</h2>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Introduction<a href="introduction.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="what-is-anvil" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> What Is AnVIL?<a href="introduction.html#what-is-anvil" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>AnVIL is NHGRI’s Genomic Data Science Analysis, Visualization, and Informatics Lab-Space. It provides a platform for performing genomic data analysis on the cloud.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XC5qzj-yZb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </div>
-<div id="does-anvil-cost-money" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Does AnVIL Cost Money?</h2>
+<div id="does-anvil-cost-money" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Does AnVIL Cost Money?<a href="introduction.html#does-anvil-cost-money" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Through AnVIL, you pay for computing resources as you use them. If you’d like to try it out, new users can claim a $300 Google Cloud credit to test out the platform and perform some small analyses.</p>
 <p>We also provide a <a href="https://jhudatascience.org/AnVIL_Book_Getting_Started/pis-and-lab-managers.html#types-of-costs">cost estimator</a>.</p>
 </div>
-<div id="where-can-i-get-help" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Where Can I Get Help?</h2>
+<div id="where-can-i-get-help" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Where Can I Get Help?<a href="introduction.html#where-can-i-get-help" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Please visit our community support forum at <a href="https://help.anvilproject.org"><code>help.anvilproject.org</code></a> with any questions (or suggestions!) you may have.</p>
 <p>You can also visit the <a href="https://jhudatascience.org/AnVIL_Book_Getting_Started/">Getting Started Guide</a> and <a href="https://anvilproject.or/learn"><code>anvilproject.org/learn</code></a> for additional resources.</p>
 </div>
-<div id="scroll-highlight" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Activate <code>scroll_highlight</code> Feature</h2>
+<div id="scroll-highlight" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Activate <code>scroll_highlight</code> Feature<a href="introduction.html#scroll-highlight" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Note that some sections of this book cover steps in a lot of detail. When navigating the table of contents, you can click subsection (e.g., 2.2, 4.2) headers a second time to expand the table of contents and enable the <code>scroll_highlight</code> feature. This can help you follow the separate steps within more clearly.</p>
-<p><img src="resources/images/01_Intro_files/figure-html/18yUr5XSEMgPk8JXFLKfG9JF7L9NpKbCF_mIcXagogKg_gde0d2ef5f6_0_1.png" title="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature." alt="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature." width="480" /></p>
+<p><img src="resources/images/01_Intro_files/figure-html/18yUr5XSEMgPk8JXFLKfG9JF7L9NpKbCF_mIcXagogKg_gde0d2ef5f6_0_1.png" alt="Double-clicking on the H2 headers (for example, 2.2) will expand the contents for view using the 'scroll_highlight' feature." width="100%" /></p>
+</div>
+<div id="why-should-i-use-anvil" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Why should I use AnVIL?<a href="introduction.html#why-should-i-use-anvil" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>You may be wondering if AnVIL is a good choice for your class. We feel the answer is an unequivocal YES!</p>
+<p>AnVIL provides all the advantages of a cloud computing environment:</p>
+<ul>
+<li><strong>Version control</strong>: All students will be using the exact same versions of programs, running on the exact same operating system, and the majority of setup can be handled for the students ahead of time. This greatly reduces time spent on setup and prevents unexpected run errors during the activities, limiting the amount of troubleshooting you have to do. As a result, classes and activities will run more smoothly and predictably.</li>
+<li><strong>Inclusivity</strong>: Cloud-computing enables all students to participate in the activity without needing to provide computers with certain specifications.</li>
+<li><strong>Experience</strong>: Cloud-computing is becoming common in today’s bioinformatics workplaces, and the classroom is a low-stress and low-stakes opportunity for students to gain experience.</li>
+</ul>
+<p>AnVIL is purpose-built for genomic data science:</p>
+<ul>
+<li><strong>Tools</strong>: Through AnVIL, students can access a wide range of tools (Galaxy, RStudio/Bioconductor, Jupyter, as well as scripted workflows) all in one place, and can easily transition between them.</li>
+<li><strong>Datasets</strong>: AnVIL provides a large and growing collection of relevant datasets with standardized organization, for easier importing and processing.</li>
+<li><strong>Authenticity</strong>: On AnVIL, students will be working in the same environment as scientists carrying out cutting edge research.</li>
+</ul>
+</div>
+<div id="overview" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> Overview<a href="introduction.html#overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This book is targeted towards people who are teaching a course or workshop on AnVIL. You will find here:</p>
+<ul>
+<li><strong>Introduction</strong> – Design philosophy and goals for this guide - is this a good fit for your class? What should you know before you start?</li>
+<li><strong>Instructor Setup</strong> – Step-by-step instructions to create your first accounts on AnVIL</li>
+<li><strong>Content Preparation</strong> – Instructions on using premade content, along with additional tools to help you customize or create your own class Workspace</li>
+<li><strong>Running the Class</strong> – Step-by-step instructions to help you add students into a class on AnVIL, along with best practices for shutting down your course cleanly and minimizing costs</li>
+<li><strong>Cost Management</strong> – Explanations of the types of costs you and your students may incure, along with advice on how to minimize them.</li>
+<li><strong>Student Instructions</strong> – Step-by-step instructions for students using AnVIL in your class, to guide them through common tasks.</li>
+</ul>
+</div>
+<div id="goals-for-this-guide" class="section level2 hasAnchor" number="1.7">
+<h2><span class="header-section-number">1.7</span> Goals for This Guide<a href="introduction.html#goals-for-this-guide" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="resources/images/01_Intro_files/figure-html/1HHWg47Tg6miv_K7GNB6ZDTx-4Jc5IMl7APfFtD1Rqag_ge21c626cf0_0_5.png" alt="List of goals for this guide: (1) get your accounts, (2) set up billing, (3) create your first Workspace, (4) develop content, and (5) set up classes with students." width="100%" /></p>
+</div>
+<div id="design-philosophy" class="section level2 hasAnchor" number="1.8">
+<h2><span class="header-section-number">1.8</span> Design Philosophy<a href="introduction.html#design-philosophy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This guide provides an opinionated walkthrough on how to set up AnVIL for your class. These step-by-step instructions take instructors that are completely new to the AnVIL through account setup to the point where you can feel comfortable hosting a class from start-to-finish on AnVIL. Following the recommendations in this guide will help you minimize expenses, develop content programmatically, track individual student expenses, and stop billing expenses from accruing once the class is complete. In support of these goals we have made the following design decisions:</p>
+<ol style="list-style-type: decimal">
+<li>ACCOUNT SETUP</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Sign up for a personal Google Cloud Account, where you can get started by claiming <a href="https://cloud.google.com/free/docs/gcp-free-tier/#free-trial">$300 free Google credits</a>.</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>CONTENT DEVELOPING</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Include version control and visibility of course content by using GitHub. This will allow you to add content programmatically, keep track of changes, and share your content with others outside of AnVIL.</li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li>CLASS SETUP</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Create a separate Terra Billing Project for each class. This will allow you to easily shut down expenses at the end of the class.</li>
+<li>Choose one funding source per class (for example, the <a href="#strides-funding">STRIDES</a> Program).</li>
+</ol>
 
 </div>
 </div>
+
+
+
 <hr>
 <center> 
   <div class="footer">
@@ -295,7 +401,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
         </div>
       </div>
 <a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="overview.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="overview-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -326,8 +432,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jhudsl/AnVIL_Book_Instructor_Guide/edit/main/01_Intro.Rmd",
-"text": "Edit"
+"link": null,
+"text": null
 },
 "history": {
 "link": null,
